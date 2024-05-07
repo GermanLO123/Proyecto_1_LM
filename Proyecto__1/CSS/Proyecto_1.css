@@ -1,0 +1,54 @@
+body {
+	background-color:rgba(56, 132, 233, 0.753);
+	font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  article {
+	background-color:rgb(5, 117, 221);
+	margin: 10px;
+	padding: 10px;
+	margin-left: 25px; 
+	margin-right: 25px;
+  }
+  div {
+	margin: -10px;
+	padding: 10px;
+	margin-left: -10px; 
+	margin-right: -10px;
+  }
+
+
+.tit{
+	display: flex;
+	justify-content: space-between;
+	background-color:rgb(5, 117, 221);
+   }
+   
+.logo {
+	max-width: 100px;
+	height: auto;
+   }
+.img_tiempo {
+	
+	max-width: 100px;
+	height: auto;
+   }
+.nos{
+	display: flex;
+	justify-content: space-between;
+   }
+.ima1{
+	width: 48px;
+	height: 57PX;
+}
+.top{
+	max-width: 100px;
+	margin-left: 90%;
+	bottom: 10%px;
+}
+.table,
+th,
+td{
+	border: 1px solid black;
+	padding: 1px;
+}
