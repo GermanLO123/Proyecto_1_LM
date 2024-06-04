@@ -1,0 +1,41 @@
+.menu {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	border-width: 100%;
+	top: 25%;
+	background-color: rgb(30, 33, 209);
+}
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li{
+	font-weight: bold;
+	float: left;
+	padding: 15px;
+	position: relative;	
+	padding: 0.8em 1em;
+	transition: background-color 0.7s linear;
+}
+
+.menu a {
+	font-size: 24px;
+	text-align: center;
+	color: rgba(2, 255, 23, 0.5);
+	padding: 1em 1em;
+	text-decoration: none;
+}
+
+.menu li:hover{
+	font-weight: bold;
+	background-color: rgba(255, 255, 255, 0.8 ); /*a = opacidad en 1%*/
+	text-shadow: #FC0 1px 0 10px;
+}
+
+.menu a:hover{
+	color: rgba(0,0,0,0.8);
+}
